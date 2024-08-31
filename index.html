@@ -18,16 +18,16 @@
         <img class="logo" src="assets/images/logo.png" alt="logo">Love Maths</h1>
     <div class="game-area">
         <div class="controls-area">
-            <button class="btn btn--btn big--green">
+            <button data-type="addition" class="btn btn--big btn--green">
                 <i class="fas fa-plus"></i>
             </button>
-            <button class="btn btn--btn big--blue">
+            <button data-type="subtract" class="btn btn--big btn--blue">
                 <i class="fas fa-minus"></i>
             </button>
-            <button class="btn btn--btn big--orange">
+            <button data-type="multiply" class="btn btn--big btn--orange">
                 <i class="fas fa-times"></i>
             </button>
-            <button class="btn btn--btn big--red">
+            <button data-type="division" class="btn btn--big btn--red">
                 <i class="fas fa-divide"></i>
             </button>
         </div>
@@ -38,7 +38,7 @@
             <span>=</span>
             <p class="answer-message">Enter Answer:</p>
             <input type="number" id="answer-box">
-            <button class="btn btn--gray">Submit Answer</button>
+            <button class="btn btn--gray" data-type="submit">Submit Answer</button>
         </div>
     </div>
     <div class="score-area">
